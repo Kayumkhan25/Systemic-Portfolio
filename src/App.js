@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Background from './components/Background';
+import Drives from './components/Drives';
+import Intro from './components/Intro';
+import Projects from './components/Projects';
+import Ventures from './components/Ventures';
+import Philosophies from './components/Philosophies';
+import Quote from './components/Quote';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-4/5 p-2 mx-auto grid gap-20">
+      
+        <Intro/>
+        
+        <Drives />
+
+        <Background />
+
+        <Ventures />
+
+        <Projects />
+
+        <Philosophies />
+
+        <Quote />
+           
     </div>
   );
 }
