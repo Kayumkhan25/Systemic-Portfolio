@@ -5,8 +5,8 @@ const Background = () => {
   return (
     <div className='flex p-2'>
         <motion.div
-        initial= {{opacity:0, rotateX:"90deg"}}
-        whileInView={{opacity:1, rotateX:0}}
+        initial= {{opacity:0, translateY:"-50%"}}
+        whileInView={{opacity:1, translateY:0}}
         transition={{duration:2}}
         >
             <div className='text-6xl w-1/2 py-10'>
@@ -15,8 +15,8 @@ const Background = () => {
         </motion.div>
         
         <motion.div
-        initial= {{opacity:0, translate:"100%"}}
-        whileInView={{opacity:1, translate:0}}
+        initial= {{opacity:0, translateY:"50%"}}
+        whileInView={{opacity:1, translateY:0}}
         transition={{duration:1}}
          className='text-xl flex flex-col gap-5'>
             <div>

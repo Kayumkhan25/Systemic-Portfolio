@@ -5,8 +5,8 @@ const Drives = () => {
   return (
     <div className='flex p-2'>
         <motion.div className='text-6xl w-1/2 py-8'
-            initial= {{opacity:0, translate:"-50%"}}
-            whileInView={{opacity:1, translate:0}}
+            initial= {{opacity:0, scale:0}}
+            whileInView={{opacity:1, scale:1}}
             transition={{duration:2}}
         >
             <div>What <span className='bg-gradient-to-tl from-rose-600 from-30% to-red-400 to-70% text-transparent bg-clip-text font-bold text-7xl'>Drives</span> me?</div>

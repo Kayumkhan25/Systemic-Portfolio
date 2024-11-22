@@ -5,15 +5,15 @@ const Philosophies = () => {
   return (
     <div className='flex p-2'>
         <motion.div
-            initial= {{opacity:0, translate:"50%"}}
-            whileInView={{opacity:1, translate:0}}
+            initial= {{opacity:0, scale:0}}
+            whileInView={{opacity:1, scale:1}}
             transition={{duration:2}}
           className='text-6xl w-1/2 py-10'>
             My <span className='bg-gradient-to-l from-cyan-400 to-teal-600 text-transparent inline-block bg-clip-text'> Philosophies</span>  
         </motion.div>
         <motion.div
-            initial= {{opacity:0, translate:"-50%"}}
-            whileInView={{opacity:1, translate:0}}
+            initial= {{opacity:0, scale:0}}
+            whileInView={{opacity:1, scale:1}}
             transition={{duration:2}}
          className='text-xl w-1/2 grid gap-12'>
            <div>

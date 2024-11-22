@@ -5,8 +5,8 @@ const Quote = () => {
   return (
     <div className='grid gap-24 pb-60'>
         <motion.div 
-        initial= {{opacity:0, translate:"50%"}}
-        whileInView={{opacity:1, translate:0}}
+        initial= {{opacity:0, translateY:"50%"}}
+        whileInView={{opacity:1, translateY:0}}
         transition={{duration:2}}
         className='text-6xl leading-relaxed'>
             If you have an idea,<br/> business, or investment <br/> that you think I could help with, <br/>please drop me a line...
@@ -21,8 +21,8 @@ const Quote = () => {
             hello@BansalBhavya.io
         </motion.h3>
         <motion.div 
-        initial= {{opacity:0, translate:"-50%"}}
-        whileInView={{opacity:1, translate:0}}
+        initial= {{opacity:0, translateY:"-50%"}}
+        whileInView={{opacity:1, translateY:0}}
         transition={{duration:2}}
         className='text-right text-xl leading-10 w-11/12 pl-96 mx-auto grid gap-8'>
             <div>
