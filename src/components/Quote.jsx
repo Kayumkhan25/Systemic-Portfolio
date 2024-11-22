@@ -24,7 +24,7 @@ const Quote = () => {
         initial= {{opacity:0, translate:"-50%"}}
         whileInView={{opacity:1, translate:0}}
         transition={{duration:2}}
-        className='text-right text-xl leading-10 w-11/12 pl-96 mx-auto grid gap-10'>
+        className='text-right text-xl leading-10 w-11/12 pl-96 mx-auto grid gap-8'>
             <div>
                 I work with a lot of super-talented people. Even if it's something I might not be able to directly help with, I may be able to recommend someone from my network of those amazing contacts.
             </div>

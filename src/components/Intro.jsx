@@ -14,7 +14,7 @@ const Intro = () => {
                 Bhavya Bansal.
             </h3>
             I am Full Stack Engineer,<br/> CTO at FacesearchAI & <br /> Chief Technology Officer at <br/>
-            <span className='bg-gradient-to-bl from-indigo-400 from-30% to-indigo-600 to-70% text-transparent bg-clip-text font-bold text-7xl'>Persist Ventures.</span>
+            <span className='bg-gradient-to-tl from-indigo-400 from-30% to-indigo-600 to-70% text-transparent bg-clip-text font-bold text-7xl'>Persist Ventures.</span>
         </div>
     </motion.div>
   )

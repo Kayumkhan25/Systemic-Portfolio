@@ -9,7 +9,7 @@ const Ventures = () => {
         whileInView={{opacity:1, scale:1}}
         transition={{duration:2}}
         className='text-6xl w-1/2 py-10'>
-            My Ventures
+            My <span className='bg-gradient-to-l from-yellow-500 from-30% to-amber-500 to-70% text-transparent bg-clip-text font-bold '>Ventures</span>
         </motion.div>
         <motion.div 
          initial= {{opacity:0, rotateY:"90deg"}}
