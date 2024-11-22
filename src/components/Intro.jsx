@@ -4,8 +4,8 @@ import {motion} from 'framer-motion';
 const Intro = () => {
   return (
     <motion.div
-        initial= {{opacity:0.2, translateX:"50%"}}
-        whileInView={{opacity:1, translateX:0}}
+        initial= {{opacity:0, scaleX:0}}
+        whileInView={{opacity:1, scaleX:1}}
         transition={{duration:2}}
       >
         <div className='text-6xl pt-40 leading-relaxed'>
